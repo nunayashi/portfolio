@@ -228,6 +228,6 @@ lang.addEventListener('change', function () {
 
 });
 
-window.addEventListener('load', () => {
-    AOS.init();
-});
+// window.addEventListener('load', () => {
+//     AOS.init();
+// });
