@@ -1223,7 +1223,7 @@ p.about__description {
     justify-content: center;
   }
   .project__img {
-    margin-bottom: -3.2rem;
+    margin-bottom: -3.4rem;
   }
 
   h1.in.home__title {
@@ -1276,8 +1276,8 @@ p.about__description {
 
   .project__img {
     width: 200px;
-    margin-bottom: -3.2rem;
-    padding-top: 1rem;
+    margin-bottom: -3.5rem;
+    padding-top: 3.4rem;
   }
   
 }
@@ -1416,7 +1416,7 @@ p.about__description {
   }
 
   .project__img {
-    margin-bottom: -0.15rem;
+    margin-bottom: -0.35rem;
   }
 
   .footer__container {
@@ -1477,6 +1477,10 @@ p.about__description {
   }
   
   .project__img {
+    width: 250px;
     margin-bottom: -0.427rem;
+  }
+  .project__data {
+    padding-top: 2.5rem;
   }
 }
