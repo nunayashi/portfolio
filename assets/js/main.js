@@ -231,3 +231,32 @@ lang.addEventListener('change', function () {
 // window.addEventListener('load', () => {
 //     AOS.init();
 // });
+
+
+// Text typing
+const text = document.querySelector(".sec-text");
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "M Nur";
+            }, 0);
+        }
+        textLoad();
+        setInterval(textLoad, 12000);
+
+
+// google sheet form pesan
+window.addEventListener("load", function() {
+    const form = document.getElementById('my-form');
+    form.addEventListener("submit", function(e) {
+      e.preventDefault();
+      const data = new FormData(form);
+      const action = e.target.action;
+      fetch(action, {
+        method: 'POST',
+        body: data,
+      })
+      .then(() => {
+        alert("Confirmation of Success!");
+      })
+    });
+  });
