@@ -21,6 +21,9 @@
 body.dark-theme .lang {
   color: #fbfbfe;
 }
+.lang option {
+  color: black;
+}
 
 /* span.in {
   display: none;
